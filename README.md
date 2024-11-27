@@ -1,4 +1,5 @@
-# Car-Price-Prediction-Streamli
+# Car-Price-Prediction-Streamlit
+![Car-Price-Prediction-Streamlit](image.jpg)
 
 # Car Price Prediction with Machine Learning and Streamlit
 
