@@ -45,5 +45,7 @@ input_data = [car_brand,km_driven,fuel,seller_type,transmission,owner,age]
 
 if st.button("Predict Selling Price"):
         predicted_price = predict_price(input_data)
-        st.success(f"Estimated Selling Price: ₹{predicted_price}")
+        rounded_price = int(predicted_price)
+        formatted_price = f"{rounded_price:,}"
+        st.success(f"Estimated Selling Price: ₹{formatted_price}")
             
